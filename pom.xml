@@ -27,9 +27,9 @@
     </parent>
     <groupId>org.glassfish.cdi</groupId>
     <artifactId>gf-cdi-porting-package-tck</artifactId>
-    <version>4.0</version>
+    <version>4.1</version>
     
-    <name>GlassFish Porting Package for the CDI TCK 4.0</name>
+    <name>GlassFish Porting Package for the CDI TCK 4.1</name>
     
     <description>Porting source to glue CDI TCK to GlassFish.</description>
     <url>https://projects.eclipse.org/projects/ee4j.glassfish</url>
@@ -86,8 +86,8 @@
         <cdi-api.version>4.1.0</cdi-api.version>
         <cdi.tck.version>4.1.0</cdi.tck.version>
         <weld.version>6.0.0.Beta1</weld.version>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <!-- TODO: Temporarily enable snapshot repository -->
